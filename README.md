@@ -2,7 +2,6 @@
 
 基于 DySAT 动态嵌入与两阶段 GMM（STGMM）的珠三角（PRD）人群流动模式识别。支持全周与工作日/周末分拆，输出模式分布、24h 曲线、稳定性（TIE）与地图/图表，并提供城市/区县剖面与城际联系网络。
 
-> 配套说明：更完整的研究撰写框架见 `paper.md`；项目背景/路径与模块说明见 `codex.md`。
 
 ## 环境依赖
 - Python 3.10+
@@ -49,8 +48,7 @@ grid_id,lon,lat,area_name,city_name
 ├─ main_pipeline.py          # Phase 1–2: 加载+特征+DySAT 训练/导出
 ├─ run_analysis.py           # Phase 3–5: 全周聚类+报告+图件
 ├─ run_analysis_split.py     # Phase 3–5: 工作日/周末分拆
-├─ codex.md                  # 项目背景与模块职责
-└─ paper.md                  # 论文写作框架与复现路径
+└─ codex.md                  # 项目背景与模块职责
 ```
 
 ## 快速开始
