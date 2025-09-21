@@ -1,0 +1,23 @@
+# Exclude large data and generated artifacts
+
+# Data: raw CSVs and big directories
+data/*.csv
+data/PRD_mobility_edges/
+data/shenzhen_mobility_edges/
+data/shenzhen_mobility_edges_sample/
+data/cache/
+
+# Model artifacts and outputs
+models/checkpoints/
+outputs/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
